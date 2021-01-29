@@ -1,0 +1,237 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+html{
+  scroll-behavior: smooth;    
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100vh ;
+  /* color:white; */
+}
+
+.frontBody{
+  background: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh ;
+}
+body{
+  position: relative;
+  height: 100vh;
+}
+
+body.body1{
+  background: #ffe900;
+  color: black;
+}
+
+/* NAVBAR */
+nav{
+  background-color: #ffe900;
+  height: 50px;
+  width: 100%;
+  color: #ffe900;
+  padding: 0;
+}
+
+@font-face{
+  font-family: Sturdy; src: url('../assets/font/Brewmaster-Gothic-Round.ttf');
+  }
+
+nav div{
+  height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  letter-spacing: 4px;
+  
+}
+/* NAVBAR-ENDS */
+
+img.mee{
+height: 90vw;
+margin-top: 20px;
+/* position: fixed; */
+padding-left: 70px;
+}
+
+div.intro1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/* INTRO-RECTANGLE */
+div.introRect{
+  background-color: black;
+  margin-top: 40px;
+  border-right: 8px solid #A32E17;
+  /* #fc9003; */
+  
+}
+
+.introRect span{
+  position: relative;
+  top: 2.5vw;
+  color: #ffe900;
+  font-family: Sturdy;
+  font-size: 10vw;
+}
+
+/* @media screen and (min-width: 1200px){
+  .introRect span{
+      font-size: 132px;
+  }
+
+  div.introRect{
+      width: 360px;
+  }
+} */
+/* INTRO-RECTANGLE-ENDS */
+
+/* ME-RECTANGLE */
+div.meRect{
+  background: black;
+  margin-top: 50px;
+  border-right: 8px solid #A32E17;
+  color: white;
+  font-family: 'Circularpro book', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2vw;
+  
+}
+/* ME-RECTANGLE-ENDS */
+
+div.meRect-text{
+  padding: 0px 10px 10px 45px;
+}
+
+.greeting{
+  text-align: center;
+  color: #ffe900;
+  font-size: 10vw;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: -14vw;
+  -webkit-animation: move 1s;
+  z-index: 1;
+}
+
+@keyframes move{
+  0%{top: -28vw;}
+  100%{top: -14vw}
+}
+
+/* NAMEBAR SVG */
+div.namebarDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 23vw;
+}
+
+img.namebar{
+  src: '../assets';
+  height: 24vw;
+}
+/* NAMEBAR SVG ENDS */
+
+
+.intro{
+  height: 33vw;
+  position: relative;
+  top: -16vw;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+a.hi{
+  text-align: center;
+  position: relative;
+  z-index:3;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 2vw;
+  top:10vw;
+}
+
+/* CLICK HERE EFFECT */
+.clickHere{
+  position: relative;
+  top: 13vw;
+  font-size: 1.5vw;
+  -webkit-transform:scale(0.9);
+  animation: scale 0.4s linear infinite;
+  
+}
+
+.clickHere a{
+  text-decoration: none;
+  color: black;
+}
+
+
+@keyframes scale{
+  50%{
+      -webkit-transform:scale(1);
+  }
+}
+
+.meRect div.hello{
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: center;
+  font-size: 5vw;
+  padding-top: 45px;
+}
+
