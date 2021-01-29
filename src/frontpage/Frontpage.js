@@ -7,8 +7,6 @@ import Typical from 'react-typical';
 
 class Frontpage extends Component{
     render(){
-        var period = '2000';
-        var type = '["I am Aswin Timalsina","I live in Monroe"]';
 
 
         return(
@@ -27,7 +25,13 @@ class Frontpage extends Component{
             data-period={period} data-type={type}>
         <span className={styles.wrap}></span>
     </a> */}
-    
+    <p className={styles.typeEffect}>
+    <Typical
+    steps={['I\'m Aswin Timalsina', 500, 'I\'m a developer', 500,'I\'m a tech enthusiast', 500, 'I\'m a learner', 500,]}
+    loop={Infinity}
+    wrapper='p'
+    />
+    </p>
 
  <p className={styles.clickHere}>
    <a href="intro.html">  Click here to open the page  </a>
