@@ -54,7 +54,7 @@ html, body{
   background: black;
   margin: 0;
   padding: 0;
-  height: 100vh ;
+  height: 100% ;
 }
 body{
   position: relative;
@@ -195,7 +195,7 @@ img.namebar{
   flex-direction: column;
 }
 
-a.hi{
+/* a.hi{
   text-align: center;
   position: relative;
   z-index:3;
@@ -204,12 +204,20 @@ a.hi{
   font-weight: 800;
   font-size: 2vw;
   top:10vw;
+} */
+
+.typeEffect{
+  font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 6vw;
+    text-align: center;
+    font-size: 2vw;
 }
 
 /* CLICK HERE EFFECT */
 .clickHere{
   position: relative;
-  top: 13vw;
+  top: 6vw;
   font-size: 1.5vw;
   -webkit-transform:scale(0.9);
   animation: scale 0.4s linear infinite;
