@@ -188,7 +188,7 @@ img.namebar{
 .intro{
   height: 33vw;
   position: relative;
-  top: -16vw;
+  top: -12vw;
   display: flex;
   align-items: center;
   /* justify-content: center; */
