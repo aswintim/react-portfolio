@@ -1,0 +1,112 @@
+.introRect{
+    background-color: black;
+    margin-top: 40px;
+    border-right: 8px solid #A32E17;
+    /* #fc9003; */
+    
+}
+
+.introRect span{
+    position: relative;
+    top: 34px;
+    color: #ffe900;
+    font-family: Sturdy;
+    font-size: 150px;
+    /* font-size: calc(30px+1.5vw); */
+}
+
+@media screen and (min-width: 1295px){
+    .introRect{
+        width: 507px
+    }
+}
+
+div.meRect{
+    background: black;
+    margin-top: 50px;
+    border-right: 8px solid #A32E17;
+    color: white;
+    font-family: 'Circularpro book', sans-serif;
+    letter-spacing: 2px;
+    font-size:25px;
+    padding-top: 45px;
+    
+}
+
+div.meRectText{
+    padding: 0px 10px 10px 45px;
+}
+
+.meRect div.hello{
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
+    font-size: 43px;
+    
+}
+
+img.mee{
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 90vw;
+    margin-top: 20px;
+    /* position: fixed; */
+    padding-left: 70px;
+    }
+
+    .cartoon{
+        position: absolute;
+        top:-52%;
+        left: 68%;
+        height: 316px;
+        width: 316px;
+        /* border-radius: 50%; */
+        background-image: url('../assets/newCartonize.svg');
+        background-size: cover;
+        background-color: #8a8a8a;
+        border: 8px solid #FFE900;
+        
+        /* display: block;
+        margin: 10px auto; */
+        
+        
+    }
+
+    @media screen and (max-width: 1294px){
+        .cartoon{
+            top: -35%;
+            left: 59%;
+            height: 250px;
+            width: 250px;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        .cartoon{
+            display: none;
+        }
+    }
+
+    .cartoon:hover{
+        background-color: #FFE900 ;
+        cursor: grab;
+        border: 8px solid white;
+    }
+
+    .cartoonPosition{
+        position: relative;
+    }
+
+    .contactIcon{
+        margin-top: 23px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .icon{
+        height: 80px;
+        margin-right: 20px;
+    }
+    .icon:hover{
+       filter: invert(26%) sepia(65%) saturate(1727%) hue-rotate(344deg) brightness(84%) contrast(100%);
+    }

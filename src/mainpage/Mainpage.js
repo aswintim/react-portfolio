@@ -1,0 +1,23 @@
+import React, {Component} from 'react';
+import styles from './mainpage.module.css';
+
+import SectionSample from '../section/SectionDesign';
+
+class Mainpage extends Component {
+render(){
+    return(
+        <div className={styles.body1}>
+            
+            <SectionSample 
+            title="INTRO" 
+            hello='HELLO!' 
+            content="I'm Aswin Timalsina. Currently, I'm studying Computer Science at University of Louisiana Monroe. The enormous possibilities of technology inspires me to learn and apply it. So blessed that I've got a laptop and internet. Let's make world a better place with technology! Please feel free to browse through these links and get to know me."
+            />
+
+        </div>
+    )
+}
+}
+   
+
+export default Mainpage;
