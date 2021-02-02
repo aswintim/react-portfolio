@@ -1,8 +1,9 @@
 .introRect{
     background-color: black;
     margin-top: 40px;
-    border-right: 8px solid #A32E17;
+    border-right: 8px solid orangered;
     /* #fc9003; */
+    border-radius: 20px 0px 20px 0px;
     
 }
 
@@ -24,12 +25,15 @@
 div.meRect{
     background: black;
     margin-top: 50px;
-    border-right: 8px solid #A32E17;
+    margin-bottom: 263px;
+    /* border-right: 8px solid #A32E17; */
+    border-right: 8px solid orangered;
     color: white;
     font-family: 'Circularpro book', sans-serif;
     letter-spacing: 2px;
     font-size:25px;
     padding-top: 45px;
+    border-radius: 20px 0px 20px 0px;
     
 }
 
@@ -55,7 +59,7 @@ img.mee{
 
     .cartoon{
         position: absolute;
-        top:-52%;
+        top:-200px;
         left: 68%;
         height: 316px;
         width: 316px;
@@ -63,7 +67,9 @@ img.mee{
         background-image: url('../assets/newCartonize.svg');
         background-size: cover;
         background-color: #8a8a8a;
+        /* background-color: orangered; */
         border: 8px solid #FFE900;
+        /* border-right: 8px solid orangered; */
         
         /* display: block;
         margin: 10px auto; */
@@ -71,20 +77,22 @@ img.mee{
         
     }
 
+    @media screen and (max-width: 800px){
+        .cartoon{
+            display: none;
+        }
+    }
+
     @media screen and (max-width: 1294px){
         .cartoon{
-            top: -35%;
+            top: -143px;
             left: 59%;
             height: 250px;
             width: 250px;
         }
     }
 
-    @media screen and (max-width: 800px){
-        .cartoon{
-            display: none;
-        }
-    }
+   
 
     .cartoon:hover{
         background-color: #FFE900 ;
@@ -102,10 +110,15 @@ img.mee{
         justify-content: center;
     }
 
+    .tagIcon:hover .icon path{
+        fill: orangered;
+         /* height: 80px; */
+        /* margin-right: 20px; */
+    }
+
     .icon{
         height: 80px;
-        margin-right: 20px;
     }
-    .icon:hover{
+    /* .icon:hover{
        filter: invert(26%) sepia(65%) saturate(1727%) hue-rotate(344deg) brightness(84%) contrast(100%);
-    }
+    } */

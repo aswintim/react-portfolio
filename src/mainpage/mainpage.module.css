@@ -4,13 +4,17 @@
     height: 100%;
     left: 0;
     top: 0; */
-    background: #ffe900;
-    height: 100vh;
+    
+    /* width: 800px; */
+    
+    /* background: rgb(252,229,70);
+background: radial-gradient(circle, rgba(252,229,70,1) 13%, rgba(251,192,63,1) 49%, rgba(251,192,63,1) 56%); */
+    /* height: 100vh; */
     /* background-size: cover; */
     color: black;
-    margin: 0;
+    margin: 0px;
     padding: 0;
-    
+    padding-top: 25px;    
    
 }
 
