@@ -4,10 +4,13 @@ import styles from './sideStyles.module.css';
 const SideLink = props =>{
     return(
     <div className={styles.sideLinkGroup}>
-        <a href="#contactMe"><div className={styles.sidelink}>Contact Me!</div></a>
-        <a href="#projects"><div className={styles.sidelink}>Projects</div></a>
-        <a href="#skills"><div className={styles.sidelink}>Skills</div></a>
-        <a href="#intro"><div className={styles.sidelink} >Intro</div></a>
+        <a href="#intro"><div className={styles.sidelink} style={{top: '9%'}}>Intro</div></a>
+        <a href="#skills"><div className={styles.sidelink} style={{top: '30%'}}>Skills</div></a>
+        <a href="#projects"><div className={styles.sidelink} style={{top: '51%'}}>Projects</div></a>
+        <a href="#contactMe"><div className={styles.sidelink} style={{top: '72%'}}>Contact Me!</div></a>
+        
+        
+        
         {/* <a href="#projects"><div className={styles.sidelink}>Projects</div></a> */}
 
     </div>)
