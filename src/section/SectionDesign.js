@@ -23,7 +23,7 @@ class SectionDesign extends Component{
                         <div className={styles.meRectText}>{this.props.content}
                         {this.props.cartoon && <div className={styles.contactIcon}>
                             {/* <a href='https://github.com/AswinTimalsina' target="_blank"><img className={styles.icon} style={{marginRight: '25px'}} src={github}/></a> */}
-                            <a href='https://www.linkedin.com/in/aswin-timalsina/' className={styles.tagIcon} target="_blank"><GithubIcon className={styles.icon} style={{marginRight: '25px'}}/></a>
+                            <a href='https://github.com/AswinTimalsina' className={styles.tagIcon} target="_blank"><GithubIcon className={styles.icon} style={{marginRight: '25px'}}/></a>
                             <a href='https://www.linkedin.com/in/aswin-timalsina/' className={styles.tagIcon} target="_blank"><LinkedinIcon className={styles.icon} style={{marginLeft: '25px'}}/></a>
                         </div>}
                         </div>

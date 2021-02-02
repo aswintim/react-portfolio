@@ -18,7 +18,16 @@ background: radial-gradient(circle, rgba(252,229,70,1) 13%, rgba(251,192,63,1) 4
    
 }
 
+.highlight{
+    border-bottom: 4px dashed orangered;
+    
+    color: white;
+}
 
+.highlight:hover{
+    color: orangered;
+    text-decoration: none;
+}
 
     
 

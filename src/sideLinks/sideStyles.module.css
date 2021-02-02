@@ -1,22 +1,27 @@
-.sideLinkGroup{
+/* .sideLinkGroup{
     
     display: flex;
     justify-content:center ;
     z-index: 20;
-    
-    /* justify-content: space-evenly;
+    position: fixed;
+    top: 328px;
+    left: -326px;
+    justify-content: space-evenly;
     width: 742px;
-    height:83px; */
-    transform: rotate(-90deg);
+    height:83px;
+     */
     /* flex-wrap: wrap-reverse; */
-}
+/* } */
 
-.sideLinkGroup .sidelink{
+/* .sideLinkGroup .sidelink{ */
     /* position: fixed; */
-    left: -364px;
-}
+    /* left: -364px; */
+/* } */
 
 .sidelink{
+    position: fixed;
+    left: -78px;
+    transform: rotate(-90deg);
     width: 165px;
     background-color: black;
     /* position: fixed; */
@@ -39,10 +44,10 @@
 @media screen and (min-width:800px) {
     /* .sidelink{left: -19%;} */
 
-    /* .sidelink:hover{
+    .sidelink:hover{
         left: -54px;
         
-    }      */
+    }     
 }
 
 /* @media screen and (min-width: 381px) and (max-width: 1795px){
