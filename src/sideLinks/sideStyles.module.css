@@ -1,0 +1,40 @@
+.sidelink{
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    color: white;
+    transform: rotate(-90deg);
+    top: 12%;
+    left: -93px;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 0 0 20px 20px;
+    padding-top: 30px;
+    transition: left .5s ease;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 4px;
+}
+
+@media screen and (min-width:800px) {
+    /* .sidelink{left: -19%;} */
+
+    .sidelink:hover{
+        left: -78px;
+        
+    }     
+}
+
+/* @media screen and (min-width: 381px) and (max-width: 1795px){
+    .sidelink{left: -19%;} */
+
+    /* .sidelink:hover{
+        left: -13%;
+        
+    } */
+/* } */
+
+/* .sidelink:hover{
+    left: -3.4%;
+    
+} */
