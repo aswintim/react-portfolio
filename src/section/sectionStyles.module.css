@@ -18,14 +18,14 @@
 
 @media screen and (min-width: 1295px){
     .introRect{
-        width: 507px
+        width: 850px
     }
 }
 
 div.meRect{
     background: black;
     margin-top: 50px;
-    margin-bottom: 263px;
+    margin-bottom: 500px;
     /* border-right: 8px solid #A32E17; */
     border-right: 8px solid orangered;
     color: white;

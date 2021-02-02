@@ -11,7 +11,7 @@ class SectionDesign extends Component{
             <div id={this.props.secId} className='container-fluid' style={{padding: '0', marginLeft: '150px', marginRight: '100px', width:'86%'}}>
             <div className='row'>
                 <div className='col'>
-                    <div className={styles.introRect}>
+                    <div className={[styles.introRect].join(' ')} style={this.props.styling}>
                         <span>{this.props.title}</span>
                     </div>
                 </div>

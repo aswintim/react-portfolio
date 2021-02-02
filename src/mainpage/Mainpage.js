@@ -24,24 +24,30 @@ class Mainpage extends Component {
 
                 <SectionSample
                     secId='skills'
-                    title="INTRO"
+                    title="SKILLS"
                     hello='HELLO!'
                     content="I'm Aswin Timalsina. Currently, I'm studying Computer Science at University of Louisiana Monroe. The enormous possibilities of technology inspires me to learn and apply it. So blessed that I've got a laptop and internet. Let's make world a better place with technology! Please feel free to browse through these links and get to know me."
-                    cartoon='yes'/>
+                    cartoon='yes'
+                    
+                    />
 
                 <SectionSample
                     secId='projects'
-                    title="INTRO"
+                    title="PROJECTS"
                     hello='HELLO!'
                     content="I'm Aswin Timalsina. Currently, I'm studying Computer Science at University of Louisiana Monroe. The enormous possibilities of technology inspires me to learn and apply it. So blessed that I've got a laptop and internet. Let's make world a better place with technology! Please feel free to browse through these links and get to know me."
-                    cartoon='yes'/>
+                    cartoon='yes'
+                    // styling={"@media screen and (min-width: 1295px){.introRect{width: 507px}}"}
+                    />
 
 <SectionSample
                     secId='contactMe'
-                    title="INTRO"
+                    title="CONTACT ME"
                     hello='HELLO!'
                     content="I'm Aswin Timalsina. Currently, I'm studying Computer Science at University of Louisiana Monroe. The enormous possibilities of technology inspires me to learn and apply it. So blessed that I've got a laptop and internet. Let's make world a better place with technology! Please feel free to browse through these links and get to know me."
-                    cartoon='yes'/>
+                    cartoon='yes'
+                   
+                    />
 
             </div>
         )
