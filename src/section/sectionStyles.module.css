@@ -4,6 +4,7 @@
     border-right: 8px solid orangered;
     /* #fc9003; */
     border-radius: 20px 0px 20px 0px;
+
     
 }
 
@@ -33,6 +34,7 @@ div.meRect{
     letter-spacing: 2px;
     font-size:25px;
     padding-top: 45px;
+    padding-bottom: 45px;
     border-radius: 20px 0px 20px 0px;
     
 }

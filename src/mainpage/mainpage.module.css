@@ -36,3 +36,33 @@ background: radial-gradient(circle, rgba(252,229,70,1) 13%, rgba(251,192,63,1) 4
         /* text-align: center;  */
        
     /* } */
+
+        .indv{
+            border-radius: 5px;
+        padding: 3px;
+        border: 1px solid white;
+        }
+
+    .one{
+        background-color: blue;
+    }
+
+    .two{
+        background-color: green;
+    }
+
+    .three{
+        background-color: red;
+    }
+
+    .four{
+        background-color: purple;
+    }
+
+    .five{
+        background-color: magenta;
+    }
+
+    .codeLink{
+        text-decoration: underline dashed orangered;
+    }
