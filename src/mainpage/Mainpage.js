@@ -6,16 +6,18 @@ import SideLink from '../sideLinks/SideLink';
 import resume from '../assets/Resume01.pdf';
 
 import ProjectModule from '../projects/ProjectModule';
+import Contact from '../contact/Contact';
 
 import ticketing from '../assets/Projects/ticketing.PNG';
 import comeunity from '../assets/Projects/comeunity.PNG';
 import burger from '../assets/Projects/burger.PNG';
 
+
 class Mainpage extends Component {
     
     render() {
         var contact = (<div>
-            
+            <Contact/>
         </div>);
         return (
             <div className={styles.body1}>
@@ -79,7 +81,7 @@ class Mainpage extends Component {
                     secId='contactMe'
                     title="CONTACT ME"
                     hello=''
-                    content="I'm Aswin Timalsina. Currently, I'm studying Computer Science at University of Louisiana Monroe. The enormous possibilities of technology inspires me to learn and apply it. So blessed that I've got a laptop and internet. Let's make world a better place with technology! Please feel free to browse through these links and get to know me."
+                    content={contact}
                     cartoon=''
                    
                     />
