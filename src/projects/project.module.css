@@ -1,0 +1,47 @@
+.projectBox{
+    border: 3px solid white;
+    border-radius: 20px 0 20px 0;
+    padding: 20px;
+    margin: 10px;
+}
+
+.projectImage{
+    height: 325px;
+    border: 8px solid #FFE900;
+}
+
+.titlee{
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline dashed orangered;
+    letter-spacing: 4px;
+}
+.description{
+    font-family: 'Karla',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    /* height: 60%; */
+    /* text-align: center; */
+}
+
+.toolsBox{
+    text-align: center;
+    height: 75px;
+}
+
+.toolsT{
+    font-weight: bold;
+}
+
+.tools{
+    font-size: 20px;
+}
+
+
+
+.codeLive{
+    /* height: ; */
+}
