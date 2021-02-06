@@ -22,6 +22,7 @@ class Contact extends Component{
               alert("Message failed to send.")
             }
           })
+          this.setState({submitted:'y'})
 
       }
 
