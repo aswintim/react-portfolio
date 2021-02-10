@@ -5,7 +5,7 @@ import Mainpage from './mainpage/Mainpage';
 
 function App() {
   return (
-    <div>
+    <div style={{zoom: '.8'}}>
     <Switch>
     <Route path='/' exact component={Frontpage} />
     <Route path='/mainpage' component={Mainpage} />

@@ -54,7 +54,7 @@ html, body{
   background: black;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 200vh;
 }
 body{
   position: relative;
@@ -159,14 +159,14 @@ div.meRect-text{
   font-size: 10vw;
   font-family: 'Poppins', sans-serif;
   position: relative;
-  top: -14vw;
+  top: -17vw;
   -webkit-animation: move 1s;
   z-index: 1;
 }
 
 @keyframes move{
   0%{top: -28vw;}
-  100%{top: -14vw}
+  100%{top: -17vw}
 }
 
 /* NAMEBAR SVG */
@@ -189,7 +189,7 @@ img.namebar{
 .intro{
   height: 33vw;
   position: relative;
-  top: -12vw;
+  top: -16vw;
   display: flex;
   align-items: center;
   /* justify-content: center; */
