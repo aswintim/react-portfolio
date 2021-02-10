@@ -11,17 +11,18 @@ class Contact extends Component{
     }
 
     formSubmit =()=>{
-        axios({
-            method: "POST", 
-            url:"http://localhost:3000/send", 
-            data:  this.state
-          }).then((response)=>{
-            if (response.data.status === 'success') {
-                this.setState({submitted: 'yes'});
-            } else if(response.data.status === 'fail') {
-              alert("Message failed to send.")
-            }
-          })
+        // axios({
+        //     method: "POST", 
+        //     url:"http://localhost:3000/send", 
+        //     data:  this.state
+        //   }).then((response)=>{
+        //     if (response.data.status === 'success') {
+        //         this.setState({submitted: 'yes'});
+        //     } else if(response.data.status === 'fail') {
+        //       alert("Message failed to send.")
+        //     }
+        //   })
+        
           this.setState({submitted:'y'})
 
       }
@@ -57,6 +58,11 @@ class Contact extends Component{
        validationSchema={contactSchema}
        onSubmit={(values, {resetForm}) => {
          // same shape as initial values
+        axios.post('./server.php', values).then(()=>console.log('Successful!'))
+        .catch(err=>{
+          console.log(err);
+        })
+
          console.log(values);
          resetForm({values: ''});
          this.formSubmit();
