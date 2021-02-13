@@ -2,29 +2,19 @@ import React, {Component} from 'react';
 import {Formik, Form, Field} from 'formik';
 import * as Yup from 'yup';
 import styles from './contact.module.css';
-import axios from 'axios';
+import emailjs from 'emailjs-com';
+
 
 
 class Contact extends Component{
     state={
-        submitted: ''
+        // submitted: '',
+        mailSent: '',
+        error: null
     }
 
-    formSubmit =()=>{
-        // axios({
-        //     method: "POST", 
-        //     url:"http://localhost:3000/send", 
-        //     data:  this.state
-        //   }).then((response)=>{
-        //     if (response.data.status === 'success') {
-        //         this.setState({submitted: 'yes'});
-        //     } else if(response.data.status === 'fail') {
-        //       alert("Message failed to send.")
-        //     }
-        //   })
-        
-          this.setState({submitted:'y'})
-
+    formSubmit =(valu)=>{
+          console.log(valu);
       }
 
     render(){
@@ -44,6 +34,9 @@ class Contact extends Component{
 
       var submit = (<div className={styles.submitted}>Message has been sent!</div>)
 
+      var erro = (<div className={styles.submitted}>{this.state.error}</div>)
+
+      // const API_PATH = 'http://localhost:3000/src/api/index.php';
       
 
     return(
@@ -57,15 +50,18 @@ class Contact extends Component{
        }}
        validationSchema={contactSchema}
        onSubmit={(values, {resetForm}) => {
-         // same shape as initial values
-        axios.post('./server.php', values).then(()=>console.log('Successful!'))
-        .catch(err=>{
-          console.log(err);
-        })
+        //used emailjs to submit the form to personal email
+        emailjs.send(process.env.REACT_APP_EMAILJS_YOUR_SERVICE_ID, process.env.REACT_APP_EMAILJS_YOUR_TEMPLATE_ID, values, process.env.REACT_APP_EMAILJS_YOUR_USER_ID)
+          .then((result) => {
+              this.setState({mailSent: 'result.text'});
+              resetForm({values: ''});
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+         
 
-         console.log(values);
-         resetForm({values: ''});
-         this.formSubmit();
+          // console.log(process.env.REACT_APP_EMAILJS_YOUR_SERVICE_ID + 'onsubmit');
 
        }}
      >
@@ -101,7 +97,9 @@ class Contact extends Component{
 
                 <div class="form-group col-md-12">
                     <label style={labelFont}>Message</label>
-                    <Field name="message" className='form-control' style={stylee}/>
+                    <Field name="message" as='textarea' className='form-control' style={stylee}/>
+
+
                      {errors.message && touched.message ? (
                         <div className={styles.error}>{errors.message}</div>
                      ) : null}
@@ -113,7 +111,7 @@ class Contact extends Component{
        )}
        
      </Formik>
-     {this.state.submitted ? submit : null}
+     {this.state.mailSent ? submit : erro}
      
         </>
     )
