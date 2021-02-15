@@ -6,7 +6,7 @@
 }
 
 .projectImage{
-    height: 325px;
+    height: 25vw;
     border: 8px solid #FFE900;
 }
 
@@ -22,14 +22,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 130px;
+    padding: 25px 0 25px 0;
     /* height: 60%; */
     /* text-align: center; */
 }
 
 .toolsBox{
     text-align: center;
-    height: 75px;
+    padding-bottom: 25px;
+    
 }
 
 .toolsT{
@@ -39,5 +40,6 @@
 .tools{
     font-size: 20px;
 }
+
 
 
