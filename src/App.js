@@ -1,4 +1,3 @@
-// import './App.css';
 import Frontpage from './frontpage/Frontpage';
 import {Switch, Route} from 'react-router-dom';
 import Mainpage from './mainpage/Mainpage';
