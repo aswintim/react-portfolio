@@ -159,15 +159,52 @@ div.meRect-text{
   font-size: 10vw;
   font-family: 'Poppins', sans-serif;
   position: relative;
-  top: -18vw;
   -webkit-animation: move 1s;
   z-index: 1;
+  top: -17vw;
 }
 
 @keyframes move{
   0%{top: -28vw;}
-  100%{top: -18vw}
+  100%{top: -17vw}
 }
+/* @media screen and (min-width: 650px){
+  .greeting{
+    top: -19vw;
+  }
+
+  @keyframes move{
+    0%{top: -28vw;}
+    100%{top: -19vw}
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 650px){
+  .greeting{
+    top: -22vw;
+  }
+
+  @keyframes move{
+    0%{top: -28vw;}
+    100%{top: -22vw}
+  }
+}
+
+@media screen and (max-width: 450px){
+  .greeting{
+    top: -17vw;
+  }
+
+  @keyframes move{
+  0%{top: -28vw;}
+  100%{top: -17vw}
+}
+} */
+
+
+
+
+
 
 /* NAMEBAR SVG */
 div.namebarDiv{
@@ -189,7 +226,7 @@ img.namebar{
 .intro{
   height: 33vw;
   position: relative;
-  top: -16vw;
+  top: -23vw;
   display: flex;
   align-items: center;
   /* justify-content: center; */
@@ -217,8 +254,8 @@ img.namebar{
 
 /* CLICK HERE EFFECT */
 .clickHere{
-  position: relative;
-  top: 13vw;
+  position: absolute;
+  top: 16vw;
   font-size: 1.5vw;
   -webkit-transform:scale(0.9);
   animation: scale 0.4s linear infinite;
