@@ -53,10 +53,11 @@ class Contact extends Component{
         //used emailjs to submit the form to personal email
         emailjs.send(process.env.REACT_APP_EMAILJS_YOUR_SERVICE_ID, process.env.REACT_APP_EMAILJS_YOUR_TEMPLATE_ID, values, process.env.REACT_APP_EMAILJS_YOUR_USER_ID)
           .then((result) => {
-              this.setState({mailSent: 'result.text'});
+              this.setState({mailSent: result.text});
               resetForm({values: ''});
-              console.log(result.text);
           }, (error) => {
+            console.log('serviceid: '+ process.env.REACT_APP_EMAILJS_YOUR_SERVICE_ID + ' templateid: '+ process.env.REACT_APP_EMAILJS_YOUR_TEMPLATE_ID + ' userid: '+process.env.REACT_APP_EMAILJS_YOUR_USER_ID);
+              this.setState({error: error.text});
               console.log(error.text);
           });
          
@@ -106,7 +107,7 @@ class Contact extends Component{
                 </div>
             </div>
             {/* bootstrap */}
-           <button type="submit" className='btn btn-primary' style={{fontSize: '25px', marginTop: '25px', marginBottom:'25px'}}>Submit</button>
+           <div className={styles.btnParent}><button type="submit" className={['btn', styles.btnOrange].join(' ')} style={{fontSize: '25px', marginTop: '25px', marginBottom:'25px'}}>Submit</button></div>
          </Form>
        )}
        

@@ -12,7 +12,7 @@
 /build
 
 # ignore env
-.env
+
 .eslintcache
 .DS_Store
 .env.local

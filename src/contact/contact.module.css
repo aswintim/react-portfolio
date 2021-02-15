@@ -13,3 +13,18 @@
     text-align: center;
     color: orangered;
 }
+
+
+.btnOrange{
+    background-color: orangered!important;
+    color: white!important;
+}
+
+.btnOrange:hover{
+    background-color: rgb(255, 38, 0)!important;
+    color: white!important;
+}
+
+.btnParent{
+    text-align: center;
+}
