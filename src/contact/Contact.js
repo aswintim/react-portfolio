@@ -56,7 +56,6 @@ class Contact extends Component{
               this.setState({mailSent: result.text});
               resetForm({values: ''});
           }, (error) => {
-            console.log('serviceid: '+ process.env.REACT_APP_EMAILJS_YOUR_SERVICE_ID + ' templateid: '+ process.env.REACT_APP_EMAILJS_YOUR_TEMPLATE_ID + ' userid: '+process.env.REACT_APP_EMAILJS_YOUR_USER_ID);
               this.setState({error: error.text});
               console.log(error.text);
           });

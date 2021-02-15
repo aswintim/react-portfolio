@@ -18,6 +18,7 @@
 .btnOrange{
     background-color: orangered!important;
     color: white!important;
+    font-size: 31px !important;
 }
 
 .btnOrange:hover{
