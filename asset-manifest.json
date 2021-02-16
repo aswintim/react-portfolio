@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/reactfulPortfolio/static/css/main.6d0c17b0.chunk.css",
-    "main.js": "/reactfulPortfolio/static/js/main.2040dbe6.chunk.js",
-    "main.js.map": "/reactfulPortfolio/static/js/main.2040dbe6.chunk.js.map",
-    "runtime-main.js": "/reactfulPortfolio/static/js/runtime-main.f86a09af.js",
-    "runtime-main.js.map": "/reactfulPortfolio/static/js/runtime-main.f86a09af.js.map",
+    "main.css": "/reactfulPortfolio/static/css/main.70807ae0.chunk.css",
+    "main.js": "/reactfulPortfolio/static/js/main.ee918f77.chunk.js",
+    "main.js.map": "/reactfulPortfolio/static/js/main.ee918f77.chunk.js.map",
+    "runtime-main.js": "/reactfulPortfolio/static/js/runtime-main.a5e12750.js",
+    "runtime-main.js.map": "/reactfulPortfolio/static/js/runtime-main.a5e12750.js.map",
     "static/css/2.dcb9beed.chunk.css": "/reactfulPortfolio/static/css/2.dcb9beed.chunk.css",
-    "static/js/2.b6fb8ce1.chunk.js": "/reactfulPortfolio/static/js/2.b6fb8ce1.chunk.js",
-    "static/js/2.b6fb8ce1.chunk.js.map": "/reactfulPortfolio/static/js/2.b6fb8ce1.chunk.js.map",
-    "static/js/3.b06f04f2.chunk.js": "/reactfulPortfolio/static/js/3.b06f04f2.chunk.js",
-    "static/js/3.b06f04f2.chunk.js.map": "/reactfulPortfolio/static/js/3.b06f04f2.chunk.js.map",
+    "static/js/2.5251915c.chunk.js": "/reactfulPortfolio/static/js/2.5251915c.chunk.js",
+    "static/js/2.5251915c.chunk.js.map": "/reactfulPortfolio/static/js/2.5251915c.chunk.js.map",
+    "static/js/3.d9d7c5dd.chunk.js": "/reactfulPortfolio/static/js/3.d9d7c5dd.chunk.js",
+    "static/js/3.d9d7c5dd.chunk.js.map": "/reactfulPortfolio/static/js/3.d9d7c5dd.chunk.js.map",
     "index.html": "/reactfulPortfolio/index.html",
     "static/css/2.dcb9beed.chunk.css.map": "/reactfulPortfolio/static/css/2.dcb9beed.chunk.css.map",
-    "static/css/main.6d0c17b0.chunk.css.map": "/reactfulPortfolio/static/css/main.6d0c17b0.chunk.css.map",
-    "static/js/2.b6fb8ce1.chunk.js.LICENSE.txt": "/reactfulPortfolio/static/js/2.b6fb8ce1.chunk.js.LICENSE.txt",
+    "static/css/main.70807ae0.chunk.css.map": "/reactfulPortfolio/static/css/main.70807ae0.chunk.css.map",
+    "static/js/2.5251915c.chunk.js.LICENSE.txt": "/reactfulPortfolio/static/js/2.5251915c.chunk.js.LICENSE.txt",
     "static/media/App.module.css": "/reactfulPortfolio/static/media/Brewmaster-Gothic-Round.fcad927b.ttf",
     "static/media/Resume01.f4d0cca7.pdf": "/reactfulPortfolio/static/media/Resume01.f4d0cca7.pdf",
     "static/media/burger.ed781b0a.PNG": "/reactfulPortfolio/static/media/burger.ed781b0a.PNG",
@@ -25,10 +25,10 @@
     "static/media/ticketing.ba4dec63.PNG": "/reactfulPortfolio/static/media/ticketing.ba4dec63.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.f86a09af.js",
+    "static/js/runtime-main.a5e12750.js",
     "static/css/2.dcb9beed.chunk.css",
-    "static/js/2.b6fb8ce1.chunk.js",
-    "static/css/main.6d0c17b0.chunk.css",
-    "static/js/main.2040dbe6.chunk.js"
+    "static/js/2.5251915c.chunk.js",
+    "static/css/main.70807ae0.chunk.css",
+    "static/js/main.ee918f77.chunk.js"
   ]
 }
