@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import cartonize from '../assets/newCartonize.svg';
+// import cartonize from '../assets/newCartonize.svg';
 import styles from './sectionStyles.module.css';
 import resume from '../assets/Resume01.pdf';
 import {ReactComponent as GithubIcon} from '../assets/github-brands.svg';

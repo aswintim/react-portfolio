@@ -70,13 +70,14 @@ background: radial-gradient(circle, rgba(252,229,70,1) 13%, rgba(251,192,63,1) 4
 
     /* arrows */
 .arrows {
+    top:-80px;
 	width: 60px;
 	/* height: 72px; */
 	position: relative;
 	left: 50%;
 	/* margin-left: -30px; */
     margin-bottom: 184px;
-	bottom: 20px;
+	/* bottom: 20px; */
 }
 
 @media screen and (max-width: 1444px){
