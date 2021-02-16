@@ -6,7 +6,10 @@ import {ReactComponent as GithubIcon} from '../assets/github-brands.svg';
 import {ReactComponent as LinkedinIcon} from '../assets/linkedin-brands.svg';
 
 class SectionDesign extends Component{
+
+
     render(){
+
         return(
             <div id={this.props.secId} className='container-fluid' style={{padding: '0', marginLeft: '150px', marginRight: '100px', width:'86%'}}>
             <div className='row'>
@@ -18,7 +21,7 @@ class SectionDesign extends Component{
             </div>
             <div className={['row', styles.cartoonPosition].join(' ')}>
                 <div className='col'>
-                    <div className={styles.meRect}>
+                    <div className={styles.meRect} style={this.props.cartoon ? {marginBottom:'150px'} : {marginBottom:'500px'}}>
                         {this.props.hello ? <div className={styles.hello}>{this.props.hello}</div> : null}
                         <div className={styles.meRectText}>{this.props.content}
                         {this.props.cartoon && <div className={styles.contactIcon}>
@@ -31,6 +34,7 @@ class SectionDesign extends Component{
                 </div>
                 {this.props.cartoon && <a href={resume} target='_blank'><div className={styles.cartoon}></div></a>}
             </div>
+            
         </div>
         )
     }

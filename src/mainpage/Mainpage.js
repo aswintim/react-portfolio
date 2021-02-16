@@ -32,6 +32,13 @@ class Mainpage extends Component {
                     Please checkout my <a href="https://github.com/AswinTimalsina" target="_blank" className={styles.highlight}><span >Github</span></a> or <a href='#projects' className={styles.highlight}><span >projects</span></a> that I have worked on. Also, feel free to checkout my <a className={styles.highlight} href={resume} target='_blank'><span >resume</span></a> or send me an <a href='mailto:aswin.timalsina1@gmail.com' target='_blank' className={styles.highlight}><span >email</span></a>.</div>}
                     
                     cartoon='yes'/>
+                    {/* <div style={{textAlign: 'center'}}> */}
+                        <a href='#projects'><svg className={styles.arrows}>
+							<path class="a1" d="M0 0 L30 32 L60 0"></path>
+							<path class="a2" d="M0 20 L30 52 L60 20"></path>
+							<path class="a3" d="M0 40 L30 72 L60 40"></path>
+						</svg></a>
+                        {/* </div> */}
 
                 {/* <SectionSample
                     secId='skills'
