@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/reactfulPortfolio/static/css/main.6d0c17b0.chunk.css",
+    "main.js": "/reactfulPortfolio/static/js/main.2040dbe6.chunk.js",
+    "main.js.map": "/reactfulPortfolio/static/js/main.2040dbe6.chunk.js.map",
+    "runtime-main.js": "/reactfulPortfolio/static/js/runtime-main.f86a09af.js",
+    "runtime-main.js.map": "/reactfulPortfolio/static/js/runtime-main.f86a09af.js.map",
+    "static/css/2.dcb9beed.chunk.css": "/reactfulPortfolio/static/css/2.dcb9beed.chunk.css",
+    "static/js/2.b6fb8ce1.chunk.js": "/reactfulPortfolio/static/js/2.b6fb8ce1.chunk.js",
+    "static/js/2.b6fb8ce1.chunk.js.map": "/reactfulPortfolio/static/js/2.b6fb8ce1.chunk.js.map",
+    "static/js/3.b06f04f2.chunk.js": "/reactfulPortfolio/static/js/3.b06f04f2.chunk.js",
+    "static/js/3.b06f04f2.chunk.js.map": "/reactfulPortfolio/static/js/3.b06f04f2.chunk.js.map",
+    "index.html": "/reactfulPortfolio/index.html",
+    "static/css/2.dcb9beed.chunk.css.map": "/reactfulPortfolio/static/css/2.dcb9beed.chunk.css.map",
+    "static/css/main.6d0c17b0.chunk.css.map": "/reactfulPortfolio/static/css/main.6d0c17b0.chunk.css.map",
+    "static/js/2.b6fb8ce1.chunk.js.LICENSE.txt": "/reactfulPortfolio/static/js/2.b6fb8ce1.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/reactfulPortfolio/static/media/Brewmaster-Gothic-Round.fcad927b.ttf",
+    "static/media/Resume01.f4d0cca7.pdf": "/reactfulPortfolio/static/media/Resume01.f4d0cca7.pdf",
+    "static/media/burger.ed781b0a.PNG": "/reactfulPortfolio/static/media/burger.ed781b0a.PNG",
+    "static/media/comeunity.4527a20f.PNG": "/reactfulPortfolio/static/media/comeunity.4527a20f.PNG",
+    "static/media/github-brands.75fda3a1.svg": "/reactfulPortfolio/static/media/github-brands.75fda3a1.svg",
+    "static/media/linkedin-brands.bcc4354a.svg": "/reactfulPortfolio/static/media/linkedin-brands.bcc4354a.svg",
+    "static/media/namebar.2dad1e6d.svg": "/reactfulPortfolio/static/media/namebar.2dad1e6d.svg",
+    "static/media/sectionStyles.module.css": "/reactfulPortfolio/static/media/newCartonize.ca5211ad.svg",
+    "static/media/ticketing.ba4dec63.PNG": "/reactfulPortfolio/static/media/ticketing.ba4dec63.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f86a09af.js",
+    "static/css/2.dcb9beed.chunk.css",
+    "static/js/2.b6fb8ce1.chunk.js",
+    "static/css/main.6d0c17b0.chunk.css",
+    "static/js/main.2040dbe6.chunk.js"
+  ]
+}
