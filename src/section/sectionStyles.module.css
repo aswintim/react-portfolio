@@ -10,11 +10,25 @@
 
 .introRect span{
     position: relative;
-    top: 34px;
+    top: 2.4vw;
     color: #ffe900;
     font-family: Sturdy;
-    font-size: 150px;
+    font-size: 10vw;
     /* font-size: calc(30px+1.5vw); */
+}
+
+@media screen and (max-width: 650px){
+    .introRect span{
+        top: 24px;
+        font-size: 89px;
+    }
+}
+
+@media screen and (min-width: 1610px){
+    .introRect span{
+        top: 29px;
+        font-size: 130px;
+    }
 }
 
 @media screen and (min-width: 1295px){
