@@ -226,7 +226,7 @@ img.namebar{
 .intro{
   height: 33vw;
   position: relative;
-  top: -23vw;
+  top: -21vw;
   display: flex;
   align-items: center;
   /* justify-content: center; */
