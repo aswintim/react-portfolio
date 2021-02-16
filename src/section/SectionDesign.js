@@ -21,7 +21,7 @@ class SectionDesign extends Component{
             </div>
             <div className={['row', styles.cartoonPosition].join(' ')}>
                 <div className='col'>
-                    <div className={styles.meRect} style={this.props.cartoon ? {marginBottom:'150px'} : {marginBottom:'500px'}}>
+                    <div className={styles.meRect} style={this.props.cartoonM ? {marginBottom:'150px'} : {marginBottom:'500px'}}>
                         {this.props.hello ? <div className={styles.hello}>{this.props.hello}</div> : null}
                         <div className={styles.meRectText}>{this.props.content}
                         {this.props.cartoon && <div className={styles.contactIcon}>

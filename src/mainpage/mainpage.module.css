@@ -75,7 +75,7 @@ background: radial-gradient(circle, rgba(252,229,70,1) 13%, rgba(251,192,63,1) 4
 	position: relative;
 	left: 50%;
 	/* margin-left: -30px; */
-    margin-bottom: 155px;
+    margin-bottom: 184px;
 	bottom: 20px;
 }
 
@@ -89,8 +89,8 @@ background: radial-gradient(circle, rgba(252,229,70,1) 13%, rgba(251,192,63,1) 4
 	stroke: #ff4500;
 	fill: transparent;
 	stroke-width: 5px;	
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
+	animation: arrow 1s infinite;
+	-webkit-animation: arrow 1s infinite; 
 }
 
 @keyframes arrow
@@ -122,4 +122,18 @@ background: radial-gradient(circle, rgba(252,229,70,1) 13%, rgba(251,192,63,1) 4
 .arrows path.a3 {	
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+
+/* arrows ends */
+
+.lastNav{
+    background-color: black;
+    color: white;
+    border-top:8px solid orangered;
+    font-family: 'Circularpro book', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px 0 20px 0;
 }
