@@ -1,7 +1,6 @@
 import Frontpage from './frontpage/Frontpage';
 import {Switch, Route} from 'react-router-dom';
 import Mainpage from './mainpage/Mainpage';
-import NotFound from './notfound/NotFound';
 
 function App() {
   return (
