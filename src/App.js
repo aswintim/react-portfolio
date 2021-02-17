@@ -1,6 +1,7 @@
 import Frontpage from './frontpage/Frontpage';
 import {Switch, Route} from 'react-router-dom';
 import Mainpage from './mainpage/Mainpage';
+import NotFound from './notfound/NotFound';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
     <Switch>
     <Route path='/' exact component={Frontpage} />
     <Route path='/mainpage' exact component={Mainpage} />
-
+    <Route component={NotFound} />
     
     
     </Switch>
