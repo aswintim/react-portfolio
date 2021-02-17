@@ -9,7 +9,7 @@ function App() {
     <Switch>
     <Route path='/' exact component={Frontpage} />
     <Route path='/mainpage' exact component={Mainpage} />
-    <Route component={NotFound} />
+    {/* <Route component={NotFound} /> */}
     
     
     </Switch>
