@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}> 
+    <BrowserRouter> 
     <App />
     </BrowserRouter>
   </React.StrictMode>,
