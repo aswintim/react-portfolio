@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aswintimalsina.github.io/",
+  "homepage": "https://aswintimalsina.github.io/react-portfolio",
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
@@ -23,8 +23,7 @@
     "yup": "^0.32.8"
   },
   "scripts": {
-    "start": "set PORT=8000 && react-scripts start",
-    "predeploy": "npm run build",
+    "start": "react-scripts start",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
