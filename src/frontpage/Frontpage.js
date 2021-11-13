@@ -41,7 +41,7 @@ class Frontpage extends Component {
                     </p>
 
                     <p className={styles.clickHere}>
-                        <NavLink to='/mainpage' style={{textDecoration: 'none'}}>
+                        <NavLink to='/mainpage'>
                             Click here to open the page
                         </NavLink>
                     </p>
