@@ -1,6 +1,7 @@
 {
-  "homepage": "https://aswintimalsina.github.io/react-portfolio",
+  "homepage": ".",
   "name": "portfolio-react",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
