@@ -32,7 +32,7 @@ class SectionDesign extends Component{
                         </div>
                     </div>
                 </div>
-                {this.props.cartoon && <a href={resume} target='_blank'><div className={styles.cartoon}></div></a>}
+                {this.props.cartoon && <a href='https://drive.google.com/file/d/1L-3WKeb08Rczcz7luNDzS7lL3lsTBgH-/view?usp=sharing' target='_blank'><div className={styles.cartoon}></div></a>}
             </div>
             
         </div>

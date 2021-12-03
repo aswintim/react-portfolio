@@ -3,7 +3,7 @@ import styles from './mainpage.module.css';
 
 import SectionSample from '../section/SectionDesign';
 import SideLink from '../sideLinks/SideLink';
-import resume from '../assets/Resume01.pdf';
+// import resume from '../assets/Resume01.pdf';
 
 import ProjectModule from '../projects/ProjectModule';
 import Contact from '../contact/Contact';
